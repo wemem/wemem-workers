@@ -1,4 +1,4 @@
-name = "affine-worker"
+name = "wemem-worker"
 main = "src/index.ts"
 compatibility_date = "2023-11-21"
 workers_dev = true

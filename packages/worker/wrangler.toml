@@ -3,6 +3,9 @@ main = "src/index.ts"
 compatibility_date = "2023-11-21"
 workers_dev = true
 minify = true
+routes = [
+  { pattern = "worker.wemem.ai", custom_domain = true }
+]
 
 [limits]
 cpu_ms = 500

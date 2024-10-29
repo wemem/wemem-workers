@@ -3,6 +3,8 @@ type OriginRule = string | RegExp | ((origin: string) => boolean);
 const ALLOW_ORIGIN: OriginRule[] = [
   'https://affine.pro',
   'https://app.affine.pro',
+  'https://wemem.ai',
+  'https://app.wemem.ai',
   'https://insider.affine.pro',
   'https://affine.fail',
   'https://try-blocksuite.vercel.app',
